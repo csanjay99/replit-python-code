@@ -31,12 +31,12 @@ def requestData(i) :
 
   for obj in records:
     pincodes.append(makeObjectFromApi(obj))
-
+'''
 for i in range(5000):
   requestData(i)
   if i==1000 :
     print(i)
-
+'''
 
 print('total number of postal regions = '+str(len(pincodes)))
 
